@@ -1,0 +1,3 @@
+com.thinkagaingames.basketball.BuildConfig
+com.thinkagaingames.basketball.UnityPlayerNativeActivity
+com.thinkagaingames.basketball.UnityPlayerProxyActivity

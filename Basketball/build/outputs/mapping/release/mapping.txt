@@ -1,0 +1,820 @@
+bitter.jnibridge.JNIBridge -> bitter.jnibridge.JNIBridge:
+    void <init>() -> <init>
+    java.lang.Object invoke(long,java.lang.Class,java.lang.reflect.Method,java.lang.Object[]) -> invoke
+    void delete(long) -> delete
+    java.lang.Object newInterfaceProxy(long,java.lang.Class[]) -> newInterfaceProxy
+    void disableInterfaceProxy(java.lang.Object) -> disableInterfaceProxy
+bitter.jnibridge.JNIBridge$a -> bitter.jnibridge.JNIBridge$a:
+    java.lang.Object a -> a
+    long b -> b
+    void <init>(long) -> <init>
+    java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]) -> invoke
+    void finalize() -> finalize
+    void a() -> a
+com.thinkagaingames.basketball.R -> com.thinkagaingames.basketball.R:
+    void <init>() -> <init>
+com.thinkagaingames.basketball.R$attr -> com.thinkagaingames.basketball.R$attr:
+    void <init>() -> <init>
+com.thinkagaingames.basketball.R$drawable -> com.thinkagaingames.basketball.R$drawable:
+    int app_banner -> app_banner
+    int app_icon -> app_icon
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+com.thinkagaingames.basketball.R$string -> com.thinkagaingames.basketball.R$string:
+    int app_name -> app_name
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+com.thinkagaingames.basketball.R$style -> com.thinkagaingames.basketball.R$style:
+    int UnityThemeSelector -> UnityThemeSelector
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+com.thinkagaingames.basketball.UnityPlayerActivity -> com.thinkagaingames.basketball.UnityPlayerActivity:
+    com.unity3d.player.UnityPlayer mUnityPlayer -> a
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onNewIntent(android.content.Intent) -> onNewIntent
+    void onDestroy() -> onDestroy
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void onLowMemory() -> onLowMemory
+    void onTrimMemory(int) -> onTrimMemory
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean onGenericMotionEvent(android.view.MotionEvent) -> onGenericMotionEvent
+com.unity3d.player.GoogleARProxy -> com.unity3d.player.GoogleARProxy:
+    boolean f -> f
+    void tangoOnServiceConnected(android.os.IBinder) -> tangoOnServiceConnected
+    void tangoOnStop() -> tangoOnStop
+    void tangoOnCreate(android.app.Activity) -> tangoOnCreate
+    void <init>(com.unity3d.player.d) -> <init>
+    void a(android.app.Activity,android.content.Context) -> a
+    boolean a(java.lang.ClassLoader) -> a
+    void a() -> a
+    void b() -> b
+    void c() -> c
+    boolean d() -> d
+com.unity3d.player.GoogleARProxy$1 -> com.unity3d.player.GoogleARProxy$1:
+    android.app.Activity a -> a
+    com.unity3d.player.GoogleARProxy b -> b
+    void <init>(com.unity3d.player.GoogleARProxy,android.app.Activity) -> <init>
+    void run() -> run
+com.unity3d.player.GoogleARProxy$2 -> com.unity3d.player.GoogleARProxy$2:
+    com.unity3d.player.GoogleARProxy a -> a
+    void <init>(com.unity3d.player.GoogleARProxy) -> <init>
+    void run() -> run
+com.unity3d.player.GoogleARProxy$3 -> com.unity3d.player.GoogleARProxy$3:
+    com.unity3d.player.GoogleARProxy a -> a
+    void <init>(com.unity3d.player.GoogleARProxy) -> <init>
+    void run() -> run
+com.unity3d.player.GoogleARProxy$4 -> com.unity3d.player.GoogleARProxy$4:
+    com.unity3d.player.GoogleARProxy a -> a
+    void <init>(com.unity3d.player.GoogleARProxy) -> <init>
+    void run() -> run
+com.unity3d.player.GoogleVrApi -> com.unity3d.player.GoogleVrApi:
+    java.util.concurrent.atomic.AtomicReference a -> a
+    void <init>() -> <init>
+    void a(com.unity3d.player.d) -> a
+    void a() -> a
+    com.unity3d.player.GoogleVrProxy b() -> b
+    com.unity3d.player.GoogleVrVideo getGoogleVrVideo() -> getGoogleVrVideo
+    void <clinit>() -> <clinit>
+com.unity3d.player.GoogleVrProxy -> com.unity3d.player.GoogleVrProxy:
+    boolean f -> f
+    boolean g -> g
+    java.lang.Runnable h -> h
+    java.util.Vector i -> i
+    android.view.SurfaceView j -> j
+    com.unity3d.player.GoogleVrProxy$a k -> k
+    java.lang.Thread l -> l
+    android.os.Handler m -> m
+    void <init>(com.unity3d.player.d) -> <init>
+    void a(boolean) -> a
+    boolean e() -> e
+    boolean a() -> a
+    void a(android.content.Intent) -> a
+    void b() -> b
+    void pauseGvrLayout() -> pauseGvrLayout
+    void c() -> c
+    void resumeGvrLayout() -> resumeGvrLayout
+    boolean a(android.app.Activity,android.content.Context,android.view.SurfaceView,java.lang.Runnable) -> a
+    long loadGoogleVr(boolean,boolean,boolean,boolean,boolean) -> loadGoogleVr
+    void setGoogleVrModeEnabled(boolean) -> setGoogleVrModeEnabled
+    void unloadGoogleVr() -> unloadGoogleVr
+    int getVideoSurfaceId() -> getVideoSurfaceId
+    java.lang.Object getVideoSurface() -> getVideoSurface
+    void registerGoogleVrVideoListener(com.unity3d.player.GoogleVrVideo$GoogleVrVideoCallbacks) -> registerGoogleVrVideoListener
+    void deregisterGoogleVrVideoListener(com.unity3d.player.GoogleVrVideo$GoogleVrVideoCallbacks) -> deregisterGoogleVrVideoListener
+    void setVideoLocationTransform(float[]) -> setVideoLocationTransform
+    void d() -> d
+    boolean a(java.lang.ClassLoader) -> a
+    boolean a(int) -> a
+    void initVrJni() -> initVrJni
+    void setVrVideoTransform(float[][]) -> setVrVideoTransform
+    java.util.Vector a(com.unity3d.player.GoogleVrProxy) -> a
+    java.lang.Runnable b(com.unity3d.player.GoogleVrProxy) -> b
+    com.unity3d.player.GoogleVrProxy$a c(com.unity3d.player.GoogleVrProxy) -> c
+    boolean d(com.unity3d.player.GoogleVrProxy) -> d
+    void a(com.unity3d.player.GoogleVrProxy,boolean) -> a
+com.unity3d.player.GoogleVrProxy$1 -> com.unity3d.player.GoogleVrProxy$1:
+    com.unity3d.player.GoogleVrProxy a -> a
+    void <init>(com.unity3d.player.GoogleVrProxy,android.os.Looper) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+com.unity3d.player.GoogleVrProxy$2 -> com.unity3d.player.GoogleVrProxy$2:
+    java.util.concurrent.atomic.AtomicLong a -> a
+    boolean b -> b
+    boolean c -> c
+    boolean d -> d
+    boolean e -> e
+    boolean f -> f
+    com.unity3d.player.GoogleVrProxy g -> g
+    void <init>(com.unity3d.player.GoogleVrProxy,java.util.concurrent.atomic.AtomicLong,boolean,boolean,boolean,boolean,boolean) -> <init>
+    void run() -> run
+com.unity3d.player.GoogleVrProxy$3 -> com.unity3d.player.GoogleVrProxy$3:
+    boolean a -> a
+    com.unity3d.player.GoogleVrProxy b -> b
+    void <init>(com.unity3d.player.GoogleVrProxy,boolean) -> <init>
+    void run() -> run
+com.unity3d.player.GoogleVrProxy$4 -> com.unity3d.player.GoogleVrProxy$4:
+    com.unity3d.player.GoogleVrProxy a -> a
+    void <init>(com.unity3d.player.GoogleVrProxy) -> <init>
+    void run() -> run
+com.unity3d.player.GoogleVrProxy$a -> com.unity3d.player.GoogleVrProxy$a:
+    boolean a -> a
+    boolean b -> b
+    boolean c -> c
+    boolean d -> d
+    boolean e -> e
+    boolean f -> f
+    com.unity3d.player.GoogleVrProxy g -> g
+    void <init>(com.unity3d.player.GoogleVrProxy) -> <init>
+    boolean a() -> a
+    void b() -> b
+com.unity3d.player.GoogleVrVideo -> com.unity3d.player.GoogleVrVideo:
+    void registerGoogleVrVideoListener(com.unity3d.player.GoogleVrVideo$GoogleVrVideoCallbacks) -> registerGoogleVrVideoListener
+    void deregisterGoogleVrVideoListener(com.unity3d.player.GoogleVrVideo$GoogleVrVideoCallbacks) -> deregisterGoogleVrVideoListener
+    void setVideoLocationTransform(float[]) -> setVideoLocationTransform
+com.unity3d.player.GoogleVrVideo$GoogleVrVideoCallbacks -> com.unity3d.player.GoogleVrVideo$GoogleVrVideoCallbacks:
+    void onSurfaceAvailable(android.view.Surface) -> onSurfaceAvailable
+    void onSurfaceUnavailable() -> onSurfaceUnavailable
+    void onFrameAvailable() -> onFrameAvailable
+com.unity3d.player.NativeLoader -> com.unity3d.player.NativeLoader:
+    boolean load(java.lang.String) -> load
+    boolean unload() -> unload
+com.unity3d.player.ReflectionHelper -> com.unity3d.player.ReflectionHelper:
+    boolean LOG -> LOG
+    boolean LOGV -> LOGV
+    com.unity3d.player.ReflectionHelper$a[] a -> a
+    void <init>() -> <init>
+    boolean a(com.unity3d.player.ReflectionHelper$a) -> a
+    void a(com.unity3d.player.ReflectionHelper$a,java.lang.reflect.Member) -> a
+    java.lang.reflect.Constructor getConstructorID(java.lang.Class,java.lang.String) -> getConstructorID
+    java.lang.reflect.Method getMethodID(java.lang.Class,java.lang.String,java.lang.String,boolean) -> getMethodID
+    java.lang.reflect.Field getFieldID(java.lang.Class,java.lang.String,java.lang.String,boolean) -> getFieldID
+    float a(java.lang.Class,java.lang.Class) -> a
+    float a(java.lang.Class,java.lang.Class[],java.lang.Class[]) -> a
+    java.lang.Class[] a(java.lang.String) -> a
+    java.lang.Class a(java.lang.String,int[]) -> a
+    java.lang.Object nativeProxyInvoke(int,java.lang.String,java.lang.Object[]) -> nativeProxyInvoke
+    void nativeProxyFinalize(int) -> nativeProxyFinalize
+    java.lang.Object newProxyInstance(int,java.lang.Class) -> newProxyInstance
+    java.lang.Object newProxyInstance(int,java.lang.Class[]) -> newProxyInstance
+    java.lang.Object a(int,java.lang.String,java.lang.Object[]) -> a
+    void a(int) -> a
+    void <clinit>() -> <clinit>
+com.unity3d.player.ReflectionHelper$1 -> com.unity3d.player.ReflectionHelper$1:
+    int a -> a
+    java.lang.Class[] b -> b
+    void <init>(int,java.lang.Class[]) -> <init>
+    java.lang.Object invoke(java.lang.Object,java.lang.reflect.Method,java.lang.Object[]) -> invoke
+    void finalize() -> finalize
+com.unity3d.player.ReflectionHelper$a -> com.unity3d.player.ReflectionHelper$a:
+    java.lang.Class b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    int e -> e
+    java.lang.reflect.Member a -> a
+    void <init>(java.lang.Class,java.lang.String,java.lang.String) -> <init>
+    int hashCode() -> hashCode
+    boolean equals(java.lang.Object) -> equals
+com.unity3d.player.UnityPlayer -> com.unity3d.player.UnityPlayer:
+    android.app.Activity currentActivity -> currentActivity
+    boolean c -> c
+    boolean d -> d
+    com.unity3d.player.l e -> e
+    java.util.concurrent.ConcurrentLinkedQueue f -> f
+    android.content.BroadcastReceiver g -> g
+    com.unity3d.player.UnityPlayer$c a -> a
+    boolean h -> h
+    com.unity3d.player.UnityPlayer$a i -> i
+    android.telephony.TelephonyManager j -> j
+    com.unity3d.player.j k -> k
+    com.unity3d.player.GoogleARProxy l -> l
+    android.content.Context m -> m
+    android.view.SurfaceView n -> n
+    boolean o -> o
+    boolean p -> p
+    com.unity3d.player.n q -> q
+    boolean r -> r
+    com.unity3d.player.i b -> b
+    void <init>(android.content.Context) -> <init>
+    void a() -> a
+    void a(android.app.Activity) -> a
+    android.view.SurfaceView b() -> b
+    void a(int,android.view.Surface) -> a
+    boolean b(int,android.view.Surface) -> b
+    boolean displayChanged(int,android.view.Surface) -> displayChanged
+    void UnitySendMessage(java.lang.String,java.lang.String,java.lang.String) -> UnitySendMessage
+    void nativeUnitySendMessage(java.lang.String,java.lang.String,java.lang.String) -> nativeUnitySendMessage
+    void c() -> c
+    void a(java.lang.Runnable) -> a
+    void init(int,boolean) -> init
+    android.view.View getView() -> getView
+    android.os.Bundle getSettings() -> getSettings
+    void kill() -> kill
+    void quit() -> quit
+    void pause() -> pause
+    void d() -> d
+    void start() -> start
+    void stop() -> stop
+    void resume() -> resume
+    void lowMemory() -> lowMemory
+    void e() -> e
+    void f() -> f
+    void configurationChanged(android.content.res.Configuration) -> configurationChanged
+    void windowFocusChanged(boolean) -> windowFocusChanged
+    boolean loadLibraryStatic(java.lang.String) -> loadLibraryStatic
+    boolean loadLibrary(java.lang.String) -> loadLibrary
+    void addPhoneCallListener() -> addPhoneCallListener
+    void initJni(android.content.Context) -> initJni
+    boolean nativeRender() -> nativeRender
+    void nativeSetInputString(java.lang.String) -> nativeSetInputString
+    void nativeSoftInputCanceled() -> nativeSoftInputCanceled
+    void nativeSoftInputLostFocus() -> nativeSoftInputLostFocus
+    boolean nativePause() -> nativePause
+    void nativeResume() -> nativeResume
+    void nativeLowMemory() -> nativeLowMemory
+    void nativeFocusChanged(boolean) -> nativeFocusChanged
+    void nativeRecreateGfxState(int,android.view.Surface) -> nativeRecreateGfxState
+    void nativeDone() -> nativeDone
+    void nativeSoftInputClosed() -> nativeSoftInputClosed
+    void nativeInitWWW(java.lang.Class) -> nativeInitWWW
+    void nativeInitWebRequest(java.lang.Class) -> nativeInitWebRequest
+    boolean nativeInjectEvent(android.view.InputEvent) -> nativeInjectEvent
+    void nativeMuteMasterAudio(boolean) -> nativeMuteMasterAudio
+    void a(android.content.pm.ApplicationInfo) -> a
+    void g() -> g
+    void showSoftInput(java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String) -> showSoftInput
+    void hideSoftInput() -> hideSoftInput
+    void setSoftInputStr(java.lang.String) -> setSoftInputStr
+    void reportSoftInputStr(java.lang.String,int,boolean) -> reportSoftInputStr
+    boolean initializeGoogleAr() -> initializeGoogleAr
+    boolean initializeGoogleVr() -> initializeGoogleVr
+    boolean showVideoPlayer(java.lang.String,int,int,int,boolean,int,int) -> showVideoPlayer
+    android.content.pm.ApplicationInfo h() -> h
+    boolean i() -> i
+    boolean j() -> j
+    int getSplashMode() -> getSplashMode
+    void executeGLThreadJobs() -> executeGLThreadJobs
+    void disableLogger() -> disableLogger
+    void b(java.lang.Runnable) -> b
+    void a(com.unity3d.player.UnityPlayer$d) -> a
+    boolean isFinishing() -> isFinishing
+    void k() -> k
+    boolean injectEvent(android.view.InputEvent) -> injectEvent
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyMultiple(int,int,android.view.KeyEvent) -> onKeyMultiple
+    boolean onKeyLongPress(int,android.view.KeyEvent) -> onKeyLongPress
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean onGenericMotionEvent(android.view.MotionEvent) -> onGenericMotionEvent
+    void a(android.view.View,android.view.View) -> a
+    boolean addViewToPlayer(android.view.View,boolean) -> addViewToPlayer
+    void removeViewFromPlayer(android.view.View) -> removeViewFromPlayer
+    void reportError(java.lang.String,java.lang.String) -> reportError
+    boolean a(com.unity3d.player.UnityPlayer) -> a
+    void b(com.unity3d.player.UnityPlayer) -> b
+    boolean c(com.unity3d.player.UnityPlayer) -> c
+    void d(com.unity3d.player.UnityPlayer) -> d
+    void a(com.unity3d.player.UnityPlayer,boolean) -> a
+    com.unity3d.player.l e(com.unity3d.player.UnityPlayer) -> e
+    void f(com.unity3d.player.UnityPlayer) -> f
+    com.unity3d.player.j g(com.unity3d.player.UnityPlayer) -> g
+    com.unity3d.player.j h(com.unity3d.player.UnityPlayer) -> h
+    void a(com.unity3d.player.UnityPlayer,android.view.Surface) -> a
+    boolean i(com.unity3d.player.UnityPlayer) -> i
+    android.view.SurfaceView j(com.unity3d.player.UnityPlayer) -> j
+    void k(com.unity3d.player.UnityPlayer) -> k
+    boolean l(com.unity3d.player.UnityPlayer) -> l
+    boolean m(com.unity3d.player.UnityPlayer) -> m
+    void n(com.unity3d.player.UnityPlayer) -> n
+    void o(com.unity3d.player.UnityPlayer) -> o
+    void b(com.unity3d.player.UnityPlayer,boolean) -> b
+    android.content.Context p(com.unity3d.player.UnityPlayer) -> p
+    void q(com.unity3d.player.UnityPlayer) -> q
+    void a(com.unity3d.player.UnityPlayer,java.lang.String) -> a
+    void r(com.unity3d.player.UnityPlayer) -> r
+    android.view.SurfaceView s(com.unity3d.player.UnityPlayer) -> s
+    com.unity3d.player.n t(com.unity3d.player.UnityPlayer) -> t
+    com.unity3d.player.n a(com.unity3d.player.UnityPlayer,com.unity3d.player.n) -> a
+    void u(com.unity3d.player.UnityPlayer) -> u
+    void <clinit>() -> <clinit>
+com.unity3d.player.UnityPlayer$1 -> com.unity3d.player.UnityPlayer$1:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$1$1 -> com.unity3d.player.UnityPlayer$1$1:
+    com.unity3d.player.UnityPlayer$1 a -> a
+    void <init>(com.unity3d.player.UnityPlayer$1) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$10 -> com.unity3d.player.UnityPlayer$10:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$11 -> com.unity3d.player.UnityPlayer$11:
+    com.unity3d.player.GoogleVrProxy a -> a
+    java.lang.Runnable b -> b
+    java.util.concurrent.Semaphore c -> c
+    com.unity3d.player.UnityPlayer d -> d
+    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.GoogleVrProxy,java.lang.Runnable,java.util.concurrent.Semaphore) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$12 -> com.unity3d.player.UnityPlayer$12:
+    java.util.concurrent.atomic.AtomicInteger a -> a
+    java.util.concurrent.Semaphore b -> b
+    java.lang.String c -> c
+    int d -> d
+    int e -> e
+    int f -> f
+    boolean g -> g
+    int h -> h
+    int i -> i
+    com.unity3d.player.UnityPlayer j -> j
+    void <init>(com.unity3d.player.UnityPlayer,java.util.concurrent.atomic.AtomicInteger,java.util.concurrent.Semaphore,java.lang.String,int,int,int,boolean,int,int) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$12$1 -> com.unity3d.player.UnityPlayer$12$1:
+    com.unity3d.player.UnityPlayer$12 a -> a
+    void <init>(com.unity3d.player.UnityPlayer$12) -> <init>
+    void a(int) -> a
+com.unity3d.player.UnityPlayer$13 -> com.unity3d.player.UnityPlayer$13:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.unity3d.player.UnityPlayer$14 -> com.unity3d.player.UnityPlayer$14:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$15 -> com.unity3d.player.UnityPlayer$15:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$16 -> com.unity3d.player.UnityPlayer$16:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$17 -> com.unity3d.player.UnityPlayer$17:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+com.unity3d.player.UnityPlayer$18 -> com.unity3d.player.UnityPlayer$18:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$19 -> com.unity3d.player.UnityPlayer$19:
+    java.util.concurrent.Semaphore a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,java.util.concurrent.Semaphore) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$2 -> com.unity3d.player.UnityPlayer$2:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$20 -> com.unity3d.player.UnityPlayer$20:
+    java.util.concurrent.Semaphore a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,java.util.concurrent.Semaphore) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$21 -> com.unity3d.player.UnityPlayer$21:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$3 -> com.unity3d.player.UnityPlayer$3:
+    com.unity3d.player.UnityPlayer a -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.unity3d.player.UnityPlayer$4 -> com.unity3d.player.UnityPlayer$4:
+    boolean a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,boolean) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$5 -> com.unity3d.player.UnityPlayer$5:
+    com.unity3d.player.UnityPlayer a -> a
+    java.lang.String b -> b
+    int c -> c
+    boolean d -> d
+    boolean e -> e
+    boolean f -> f
+    boolean g -> g
+    java.lang.String h -> h
+    com.unity3d.player.UnityPlayer i -> i
+    void <init>(com.unity3d.player.UnityPlayer,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,boolean,java.lang.String) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$6 -> com.unity3d.player.UnityPlayer$6:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$7 -> com.unity3d.player.UnityPlayer$7:
+    java.lang.Runnable a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,java.lang.Runnable) -> <init>
+    void a() -> a
+com.unity3d.player.UnityPlayer$8 -> com.unity3d.player.UnityPlayer$8:
+    java.lang.String a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    void <init>(com.unity3d.player.UnityPlayer,java.lang.String) -> <init>
+    void run() -> run
+com.unity3d.player.UnityPlayer$9 -> com.unity3d.player.UnityPlayer$9:
+    boolean a -> a
+    java.lang.String b -> b
+    int c -> c
+    com.unity3d.player.UnityPlayer d -> d
+    void <init>(com.unity3d.player.UnityPlayer,boolean,java.lang.String,int) -> <init>
+    void a() -> a
+com.unity3d.player.UnityPlayer$a -> com.unity3d.player.UnityPlayer$a:
+    com.unity3d.player.UnityPlayer a -> a
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void onCallStateChanged(int,java.lang.String) -> onCallStateChanged
+    void <init>(com.unity3d.player.UnityPlayer,byte) -> <init>
+com.unity3d.player.UnityPlayer$b -> com.unity3d.player.UnityPlayer$b:
+    com.unity3d.player.UnityPlayer$b a -> a
+    com.unity3d.player.UnityPlayer$b b -> b
+    com.unity3d.player.UnityPlayer$b c -> c
+    com.unity3d.player.UnityPlayer$b d -> d
+    com.unity3d.player.UnityPlayer$b e -> e
+    com.unity3d.player.UnityPlayer$b f -> f
+    com.unity3d.player.UnityPlayer$b[] g -> g
+    void <init>(java.lang.String,int) -> <init>
+    void <clinit>() -> <clinit>
+com.unity3d.player.UnityPlayer$c -> com.unity3d.player.UnityPlayer$c:
+    android.os.Handler a -> a
+    boolean b -> b
+    int c -> c
+    com.unity3d.player.UnityPlayer d -> d
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+    void a() -> a
+    void b() -> b
+    void c() -> c
+    void a(boolean) -> a
+    void a(com.unity3d.player.UnityPlayer$b) -> a
+    void <init>(com.unity3d.player.UnityPlayer,byte) -> <init>
+com.unity3d.player.UnityPlayer$c$1 -> com.unity3d.player.UnityPlayer$c$1:
+    com.unity3d.player.UnityPlayer$c a -> a
+    void <init>(com.unity3d.player.UnityPlayer$c) -> <init>
+    boolean handleMessage(android.os.Message) -> handleMessage
+com.unity3d.player.UnityPlayer$d -> com.unity3d.player.UnityPlayer$d:
+    com.unity3d.player.UnityPlayer e -> e
+    void <init>(com.unity3d.player.UnityPlayer) -> <init>
+    void run() -> run
+    void a() -> a
+    void <init>(com.unity3d.player.UnityPlayer,byte) -> <init>
+com.unity3d.player.UnityPlayerActivity -> com.unity3d.player.UnityPlayerActivity:
+    com.unity3d.player.UnityPlayer mUnityPlayer -> mUnityPlayer
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onNewIntent(android.content.Intent) -> onNewIntent
+    void onDestroy() -> onDestroy
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void onLowMemory() -> onLowMemory
+    void onTrimMemory(int) -> onTrimMemory
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    boolean dispatchKeyEvent(android.view.KeyEvent) -> dispatchKeyEvent
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    boolean onGenericMotionEvent(android.view.MotionEvent) -> onGenericMotionEvent
+com.unity3d.player.UnityPlayerNativeActivity -> com.unity3d.player.UnityPlayerNativeActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+com.unity3d.player.UnityPlayerProxyActivity -> com.unity3d.player.UnityPlayerProxyActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+com.unity3d.player.UnityWebRequest -> com.unity3d.player.UnityWebRequest:
+    long a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.util.Map d -> d
+    int e -> e
+    long f -> f
+    void <init>(long,java.lang.String,java.util.Map,java.lang.String,int) -> <init>
+    boolean hasTimedOut() -> hasTimedOut
+    void run() -> run
+    void runSafe() -> runSafe
+    void headerCallback(long,java.lang.String,java.lang.String) -> headerCallback
+    void headerCallback(java.lang.String,java.lang.String) -> headerCallback
+    void headerCallback(java.util.Map) -> headerCallback
+    int uploadCallback(long,java.nio.ByteBuffer) -> uploadCallback
+    int uploadCallback(java.nio.ByteBuffer) -> uploadCallback
+    void contentLengthCallback(long,int) -> contentLengthCallback
+    void contentLengthCallback(int) -> contentLengthCallback
+    boolean downloadCallback(long,java.nio.ByteBuffer,int) -> downloadCallback
+    boolean downloadCallback(java.nio.ByteBuffer,int) -> downloadCallback
+    void responseCodeCallback(int) -> responseCodeCallback
+    void responseCodeCallback(long,int) -> responseCodeCallback
+    void unknownHostCallback(java.lang.String) -> unknownHostCallback
+    void badProtocolCallback(java.lang.String) -> badProtocolCallback
+    void malformattedUrlCallback(java.lang.String) -> malformattedUrlCallback
+    void sslCannotConnectCallback(javax.net.ssl.SSLException) -> sslCannotConnectCallback
+    void errorCallback(java.lang.String) -> errorCallback
+    void errorCallback(long,int,java.lang.String) -> errorCallback
+    void <clinit>() -> <clinit>
+com.unity3d.player.WWW -> com.unity3d.player.WWW:
+    int a -> a
+    int b -> b
+    java.lang.String c -> c
+    byte[] d -> d
+    java.util.Map e -> e
+    void <init>(int,java.lang.String,byte[],java.util.Map) -> <init>
+    void run() -> run
+    void runSafe() -> runSafe
+    boolean headerCallback(int,java.lang.String) -> headerCallback
+    boolean headerCallback(java.util.Map) -> headerCallback
+    boolean headerCallback(java.lang.String,java.lang.String) -> headerCallback
+    boolean readCallback(int,byte[],int) -> readCallback
+    boolean readCallback(byte[],int) -> readCallback
+    void progressCallback(int,float,float,double,int) -> progressCallback
+    void progressCallback(int,int,int,int,long,long) -> progressCallback
+    void errorCallback(int,java.lang.String) -> errorCallback
+    void doneCallback(int) -> doneCallback
+com.unity3d.player.a -> com.unity3d.player.a:
+    javax.net.ssl.SSLSocketFactory a -> a
+    com.unity3d.player.a$a b -> b
+    javax.net.ssl.SSLSocketFactory c -> c
+    java.lang.Object[] d -> d
+    boolean e -> e
+    void <init>() -> <init>
+    javax.net.ssl.SSLSocketFactory a() -> a
+    java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean) -> createSocket
+    java.net.Socket createSocket(java.lang.String,int) -> createSocket
+    java.net.Socket createSocket(java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket(java.net.InetAddress,int,java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket(java.lang.String,int,java.net.InetAddress,int) -> createSocket
+    java.net.Socket createSocket() -> createSocket
+    java.net.Socket a(java.net.Socket) -> a
+    java.lang.String[] getDefaultCipherSuites() -> getDefaultCipherSuites
+    java.lang.String[] getSupportedCipherSuites() -> getSupportedCipherSuites
+    void <clinit>() -> <clinit>
+com.unity3d.player.a$a -> com.unity3d.player.a$a:
+    com.unity3d.player.a a -> a
+    void <init>(com.unity3d.player.a) -> <init>
+    void handshakeCompleted(javax.net.ssl.HandshakeCompletedEvent) -> handshakeCompleted
+com.unity3d.player.b -> com.unity3d.player.b:
+    com.unity3d.player.m a -> a
+    com.unity3d.player.d b -> b
+    android.content.Context c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    void <init>(java.lang.String,com.unity3d.player.d) -> <init>
+    void runOnUiThread(java.lang.Runnable) -> runOnUiThread
+    boolean runOnUiThreadWithSync(java.lang.Runnable) -> runOnUiThreadWithSync
+    void reportError(java.lang.String) -> reportError
+com.unity3d.player.b$1 -> com.unity3d.player.b$1:
+    java.lang.Runnable a -> a
+    java.util.concurrent.Semaphore b -> b
+    com.unity3d.player.b c -> c
+    void <init>(com.unity3d.player.b,java.lang.Runnable,java.util.concurrent.Semaphore) -> <init>
+    void run() -> run
+com.unity3d.player.c -> com.unity3d.player.c:
+    void a(android.app.Activity,java.lang.Runnable) -> a
+com.unity3d.player.d -> com.unity3d.player.d:
+    boolean addViewToPlayer(android.view.View,boolean) -> addViewToPlayer
+    void removeViewFromPlayer(android.view.View) -> removeViewFromPlayer
+    void reportError(java.lang.String,java.lang.String) -> reportError
+com.unity3d.player.e -> com.unity3d.player.e:
+    boolean a -> a
+    void Log(int,java.lang.String) -> Log
+    void <clinit>() -> <clinit>
+com.unity3d.player.f -> com.unity3d.player.f:
+    void <init>() -> <init>
+    boolean a(android.content.pm.PackageItemInfo) -> a
+    void a(android.app.Activity,java.lang.Runnable) -> a
+com.unity3d.player.g -> com.unity3d.player.g:
+    java.lang.Runnable a -> a
+    void <init>(java.lang.Runnable) -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRequestPermissionsResult(int,java.lang.String[],int[]) -> onRequestPermissionsResult
+com.unity3d.player.h -> com.unity3d.player.h:
+    boolean a -> a
+    boolean b -> b
+    boolean c -> c
+    com.unity3d.player.c d -> d
+    void <clinit>() -> <clinit>
+com.unity3d.player.i -> com.unity3d.player.i:
+    android.content.Context a -> a
+    com.unity3d.player.UnityPlayer b -> b
+    int c -> c
+    int d -> d
+    int e -> e
+    int f -> f
+    void <init>(android.content.Context,com.unity3d.player.UnityPlayer,java.lang.String,int,boolean,boolean,boolean,java.lang.String) -> <init>
+    void a(android.widget.EditText,java.lang.String,int,boolean,boolean,boolean,java.lang.String) -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    int a(int,boolean,boolean,boolean) -> a
+    void a(java.lang.String,boolean) -> a
+    void onClick(android.view.View) -> onClick
+    void onBackPressed() -> onBackPressed
+    android.view.View createSoftInputView() -> createSoftInputView
+    java.lang.String a() -> a
+    void a(java.lang.String) -> a
+    java.lang.String a(com.unity3d.player.i) -> a
+    void a(com.unity3d.player.i,java.lang.String,boolean) -> a
+    android.content.Context b(com.unity3d.player.i) -> b
+    void <clinit>() -> <clinit>
+com.unity3d.player.i$1 -> com.unity3d.player.i$1:
+    com.unity3d.player.i a -> a
+    void <init>(com.unity3d.player.i) -> <init>
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+com.unity3d.player.i$2 -> com.unity3d.player.i$2:
+    com.unity3d.player.i a -> a
+    void <init>(com.unity3d.player.i,android.content.Context) -> <init>
+    boolean onKeyPreIme(int,android.view.KeyEvent) -> onKeyPreIme
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+com.unity3d.player.i$3 -> com.unity3d.player.i$3:
+    com.unity3d.player.i a -> a
+    void <init>(com.unity3d.player.i) -> <init>
+    boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
+com.unity3d.player.j -> com.unity3d.player.j:
+    int a -> a
+    int b -> b
+    android.graphics.Bitmap c -> c
+    android.graphics.Bitmap d -> d
+    void <init>(android.content.Context,int) -> <init>
+    void a() -> a
+    void onLayout(boolean,int,int,int,int) -> onLayout
+com.unity3d.player.j$1 -> com.unity3d.player.j$1:
+    int[] a -> a
+    void <clinit>() -> <clinit>
+com.unity3d.player.j$a -> com.unity3d.player.j$a:
+    int a -> a
+    int b -> b
+    int c -> c
+    int[] d -> d
+    int[] a() -> a
+    void <clinit>() -> <clinit>
+com.unity3d.player.k -> com.unity3d.player.k:
+    java.lang.Thread$UncaughtExceptionHandler a -> a
+    void <init>() -> <init>
+    boolean a() -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.unity3d.player.l -> com.unity3d.player.l:
+    boolean a -> a
+    boolean b -> b
+    boolean c -> c
+    boolean d -> d
+    boolean e -> e
+    void <init>() -> <init>
+    void a() -> a
+    void b() -> b
+    boolean c() -> c
+    void d() -> d
+    void a(boolean) -> a
+    void b(boolean) -> b
+    boolean e() -> e
+    void c(boolean) -> c
+    boolean f() -> f
+    boolean g() -> g
+    java.lang.String toString() -> toString
+    void <clinit>() -> <clinit>
+com.unity3d.player.m -> com.unity3d.player.m:
+    java.util.HashMap a -> a
+    java.lang.Class b -> b
+    java.lang.Object c -> c
+    void <init>(java.lang.Class,java.lang.Object) -> <init>
+    void a(java.lang.String,java.lang.Class[]) -> a
+    void a(java.lang.String,com.unity3d.player.m$a) -> a
+    java.lang.Object a(java.lang.String,java.lang.Object[]) -> a
+com.unity3d.player.m$a -> com.unity3d.player.m$a:
+    java.lang.Class[] a -> a
+    java.lang.reflect.Method b -> b
+    com.unity3d.player.m c -> c
+    void <init>(com.unity3d.player.m,java.lang.Class[]) -> <init>
+com.unity3d.player.n -> com.unity3d.player.n:
+    boolean a -> a
+    android.content.Context b -> b
+    android.view.SurfaceView c -> c
+    android.view.SurfaceHolder d -> d
+    java.lang.String e -> e
+    int f -> f
+    int g -> g
+    boolean h -> h
+    long i -> i
+    long j -> j
+    android.widget.FrameLayout k -> k
+    android.view.Display l -> l
+    int m -> m
+    int n -> n
+    int o -> o
+    int p -> p
+    android.media.MediaPlayer q -> q
+    android.widget.MediaController r -> r
+    boolean s -> s
+    boolean t -> t
+    int u -> u
+    boolean v -> v
+    boolean w -> w
+    com.unity3d.player.n$a x -> x
+    com.unity3d.player.n$b y -> y
+    int z -> z
+    void b(java.lang.String) -> b
+    void <init>(android.content.Context,java.lang.String,int,int,int,boolean,long,long,com.unity3d.player.n$a) -> <init>
+    boolean a() -> a
+    void a(int) -> a
+    void destroyPlayer() -> destroyPlayer
+    void c() -> c
+    void CancelOnPrepare() -> CancelOnPrepare
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void onBufferingUpdate(android.media.MediaPlayer,int) -> onBufferingUpdate
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+    void onVideoSizeChanged(android.media.MediaPlayer,int,int) -> onVideoSizeChanged
+    void onPrepared(android.media.MediaPlayer) -> onPrepared
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void doCleanUp() -> doCleanUp
+    void d() -> d
+    void updateVideoLayout() -> updateVideoLayout
+    boolean canPause() -> canPause
+    boolean canSeekBackward() -> canSeekBackward
+    boolean canSeekForward() -> canSeekForward
+    int getBufferPercentage() -> getBufferPercentage
+    int getCurrentPosition() -> getCurrentPosition
+    int getDuration() -> getDuration
+    boolean isPlaying() -> isPlaying
+    void pause() -> pause
+    void seekTo(int) -> seekTo
+    void start() -> start
+    boolean b() -> b
+    void a(java.lang.String) -> a
+    void <clinit>() -> <clinit>
+com.unity3d.player.n$a -> com.unity3d.player.n$a:
+    void a(int) -> a
+com.unity3d.player.n$b -> com.unity3d.player.n$b:
+    com.unity3d.player.n b -> b
+    boolean c -> c
+    com.unity3d.player.n a -> a
+    void <init>(com.unity3d.player.n,com.unity3d.player.n) -> <init>
+    void run() -> run
+    void a() -> a
+org.fmod.FMODAudioDevice -> org.fmod.FMODAudioDevice:
+    java.lang.Thread a -> a
+    boolean b -> b
+    android.media.AudioTrack c -> c
+    boolean d -> d
+    java.nio.ByteBuffer e -> e
+    byte[] f -> f
+    org.fmod.a g -> g
+    int h -> h
+    int i -> i
+    int j -> j
+    int k -> k
+    void <init>() -> <init>
+    void start() -> start
+    void stop() -> stop
+    void close() -> close
+    boolean isRunning() -> isRunning
+    void run() -> run
+    void releaseAudioTrack() -> releaseAudioTrack
+    int fmodGetInfo(int) -> fmodGetInfo
+    int fmodProcess(java.nio.ByteBuffer) -> fmodProcess
+    int fmodProcessMicData(java.nio.ByteBuffer,int) -> fmodProcessMicData
+    int startAudioRecord(int,int,int) -> startAudioRecord
+    void stopAudioRecord() -> stopAudioRecord
+    void <clinit>() -> <clinit>
+org.fmod.a -> org.fmod.a:
+    org.fmod.FMODAudioDevice a -> a
+    java.nio.ByteBuffer b -> b
+    int c -> c
+    int d -> d
+    int e -> e
+    java.lang.Thread f -> f
+    boolean g -> g
+    android.media.AudioRecord h -> h
+    boolean i -> i
+    void <init>(org.fmod.FMODAudioDevice,int,int) -> <init>
+    int a() -> a
+    void b() -> b
+    void c() -> c
+    void run() -> run
+    void d() -> d

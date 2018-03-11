@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IntegratedBasketball</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BASKETBALL_PREFS">com.thinkagaingames.basketball.prefs</string>
+    <string name="KEY_LAST_SCORE">com.thinkagaingames.basketball.KEY_LAST_SCORE</string>
+    <string name="KEY_AD_ID">com.thinkagaingames.basketball.KEY_AD_ID</string>
+    <string name="INTENT_SET_AD_ID">com.thinkagaingames.basketball.SET_AD_ID</string>
+    <string name="INTENT_SET_LAST_SCORE">com.thinkagaingames.basketball.SET_LAST_SCORE</string>
+    <string name="INTENT_REQUEST_AD_ID">com.thinkagaingames.basketball.REQUEST_AD_ID</string>
+</resources>
