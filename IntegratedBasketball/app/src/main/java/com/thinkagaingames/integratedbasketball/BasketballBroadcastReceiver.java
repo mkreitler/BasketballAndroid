@@ -30,8 +30,6 @@ public class BasketballBroadcastReceiver extends BroadcastReceiver {
             Log.e("UNITY", "!!! pluginFragment is null!");
         }
 
-
-
         if (mainActivity != null) {
             // This is a handler for the main activity.
             if (intent.getAction() == mainActivity.getString(R.string.INTENT_REQUEST_AD_ID)) {

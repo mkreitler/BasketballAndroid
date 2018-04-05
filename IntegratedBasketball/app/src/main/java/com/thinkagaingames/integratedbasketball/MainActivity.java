@@ -38,10 +38,6 @@ public class MainActivity extends AppCompatActivity implements AndroidToUnity.On
     }
 
     public void onPlayButtonPushed(View view) {
-
-//        Intent intent = new Intent(this, UnityActivity.class);
-//        startActivity(intent);
-
         generateAdId();
 
         TextView tv = (TextView)findViewById(R.id.textView);

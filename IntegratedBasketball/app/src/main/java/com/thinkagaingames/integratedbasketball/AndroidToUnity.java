@@ -106,7 +106,11 @@ public class AndroidToUnity extends android.app.Fragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
+
+        Log.e("UNITY", "onAttach (1)");
+
         setListeners(null, this);
+
         requestAdId();
     }
 
@@ -114,14 +118,9 @@ public class AndroidToUnity extends android.app.Fragment {
     public void onAttach(Context context) {
         super.onAttach(context);
 
-        requestAdId();
+        Log.e("UNITY", "onAttach (2)");
 
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
-        }
+        requestAdId();
     }
 
     @Override

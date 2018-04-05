@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/markkreitler/Projects/Android/BasketballAndroid/Standalone/Basketball/build/intermediates/res/merged/debug/drawable-xhdpi_app_banner.png.flat",
+        "source": "/Users/markkreitler/Projects/Android/BasketballAndroid/Standalone/Basketball/src/main/res/drawable-xhdpi/app_banner.png"
+    },
+    {
+        "merged": "/Users/markkreitler/Projects/Android/BasketballAndroid/Standalone/Basketball/build/intermediates/res/merged/debug/drawable-mdpi_app_icon.png.flat",
+        "source": "/Users/markkreitler/Projects/Android/BasketballAndroid/Standalone/Basketball/src/main/res/drawable-mdpi/app_icon.png"
+    }
+]
