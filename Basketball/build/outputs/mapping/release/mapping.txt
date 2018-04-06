@@ -13,8 +13,6 @@ bitter.jnibridge.JNIBridge$a -> bitter.jnibridge.JNIBridge$a:
     void a() -> a
 com.thinkagaingames.basketball.R -> com.thinkagaingames.basketball.R:
     void <init>() -> <init>
-com.thinkagaingames.basketball.R$attr -> com.thinkagaingames.basketball.R$attr:
-    void <init>() -> <init>
 com.thinkagaingames.basketball.R$drawable -> com.thinkagaingames.basketball.R$drawable:
     int app_banner -> app_banner
     int app_icon -> app_icon

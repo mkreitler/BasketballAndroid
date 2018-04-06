@@ -12,7 +12,6 @@ bitter.jnibridge.JNIBridge$a: java.lang.Object invoke(java.lang.Object,java.lang
 bitter.jnibridge.JNIBridge$a: void finalize()
 bitter.jnibridge.JNIBridge$a: void a()
 com.thinkagaingames.basketball.R
-com.thinkagaingames.basketball.R$attr
 com.thinkagaingames.basketball.R$drawable
 com.thinkagaingames.basketball.R$drawable: int app_banner
 com.thinkagaingames.basketball.R$drawable: int app_icon

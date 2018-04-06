@@ -1,0 +1,86 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/markkreitler/Projects/Android/BasketballAndroid/Basketball/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/markkreitler/Projects/Android/BasketballAndroid/Basketball/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "147"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "103",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "196"
+                    }
+                },
+                {
+                    "source": "/Users/markkreitler/Projects/Android/BasketballAndroid/Basketball/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "47",
+                        "endOffsets": "98"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/markkreitler/Projects/Android/BasketballAndroid/Basketball/build/intermediates/res/merged/release/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/markkreitler/Projects/Android/BasketballAndroid/Basketball/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "147"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "103",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "196"
+                    }
+                },
+                {
+                    "source": "/Users/markkreitler/Projects/Android/BasketballAndroid/Basketball/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "47",
+                        "endOffsets": "98"
+                    }
+                }
+            ]
+        }
+    ]
+}

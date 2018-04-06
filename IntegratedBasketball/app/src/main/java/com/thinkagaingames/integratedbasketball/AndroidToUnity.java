@@ -55,6 +55,11 @@ public class AndroidToUnity extends android.app.Fragment {
         }
     }
 
+    public static void UnityDidCompleteSetup() {
+        // TODO: initialize custom audio system.
+        Log.e("UNITY", ">>> Initialize Audio System Here <<<");
+    }
+
     public static AndroidToUnity instance() {
         return a2uInstance;
     }
